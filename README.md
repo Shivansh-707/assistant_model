@@ -26,16 +26,4 @@ The intent recognition model is built using Naive Bayes I first came across Naiv
    - Based on the predicted intent it executes the appropriate action and responds with text to speech  
 
 ## System diagram
-User Speech
-|
-Speech Recognition
-|
-Predicted Text
-|
-Naive Bayes Classifier
-|
-Predicted Intent
-|
-Action Handler (time joke wiki open site exit)
-|
-Response
+User Speech -> Speech Recognition ->Predicted Text -> Naive Bayes Classifier -> Predicted Intent -> Action Handler (time joke wiki open site exit) -> Response
